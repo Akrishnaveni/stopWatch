@@ -80,7 +80,7 @@ class Stopwatch extends Component {
             <button type="button" className="btn btn2" onClick={this.onStop}>
               stop
             </button>
-            <button type="button" className="btn btn3" onClick={this.onRest}>
+            <button type="button" className="btn btn3" onClick={this.onReset}>
               Reset
             </button>
           </div>
