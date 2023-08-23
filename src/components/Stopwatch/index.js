@@ -24,7 +24,7 @@ class Stopwatch extends Component {
   }
 
   onStart = () => {
-    const timerInterval = setInterval(this.updateTime, 1000)
+    this.timerInterval = setInterval(this.updateTime, 1000)
     this.setState({isRunning: true})
   }
 
